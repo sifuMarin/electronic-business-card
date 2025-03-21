@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Марин Калинков - Електронна Визитка</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background-color: #121212;
+            color: white;
+            padding: 20px;
+        }
+        .card {
+            background: #1e1e1e;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+            max-width: 500px;
+            margin: auto;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 3px solid #f4a261;
+        }
+        .info {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .links a {
+            display: block;
+            margin: 8px 0;
+            text-decoration: none;
+            color: #f4a261;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        .links a:hover {
+            color: #e76f51;
+        }
+        .qr {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="/Users/macbook13/Downloads/464750664_9049705988396591_1981218240331242008_n (1).jpg" alt="Марин Калинков" class="profile-pic">
+        <h2>Марин Калинков</h2>
+        <p class="info">Учител по музика, ИТ, Software Q&A, масажист, инструктор по Wing Tsun и Ескрима, музикант, тоноператор</p>
+        <p class="info">ПЕГ "Д-р Иван Богоров" Димитровград</p>
+        <p class="info">Инструктор в WingTsun KungFu Dimitrovgrad</p>
+        <p><b>Телефон:</b> <a href="tel:+359886066767" style="color:#f4a261">0886066767</a></p>
+        <p><b>Email:</b> <a href="mailto:don_linchone@abv.bg" style="color:#f4a261">don_linchone@abv.bg</a></p>
+        <p><b>Email:</b> <a href="mailto:wingtsun_dimitrovgrad@abv.bg" style="color:#f4a261">wingtsun_dimitrovgrad@abv.bg</a></p>
+        <p class="info">Димитровград, бул. "България" 4</p>
+        
+        <div class="links">
+            <a href="https://wingtsun-dimitrovgrad.com/" target="_blank">Wing Tsun Димитровград</a>
+            <a href="https://mkalinkov.weebly.com/" target="_blank">Личен сайт</a>
+            <a href="https://www.facebook.com/profile.php?id=100000718400318" target="_blank">Facebook</a>
+            <a href="https://www.linkedin.com/in/marin-kalinkov-a6a566232/" target="_blank">LinkedIn</a>
+            <a href="https://www.instagram.com/marinkalinkov/" target="_blank">Instagram</a>
+            <a href="https://www.youtube.com/@marinmotovlog" target="_blank">YouTube</a>
+        </div>
+
+        <div class="qr">
+            <p>Сканирай QR кода за достъп до визитката:</p>
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://your-actual-ecard-link.com" alt="QR код">
+        </div>
+    </div>
+</body>
+</html>
